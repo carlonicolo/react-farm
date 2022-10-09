@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import StudentList from './components/StudentList';
 import './App.css';
+import StudentList from './components/StudentList';
 
 function App() {
 
@@ -57,7 +57,7 @@ function App() {
       addNewStudent(student);
     }
   }
-  
+
   return (
     <div className="container">
       <div
